@@ -18,20 +18,20 @@ export default function About() {
       >
 
         {/* Left Side Image */}
-        <div className="flex justify-center">
-          <div className="relative w-72 h-72 md:w-96 md:h-96 rounded-3xl overflow-hidden border border-purple-500/30 shadow-2xl shadow-purple-500/20">
+<div className="flex justify-center items-center">
+  <div className="relative w-72 h-72 md:w-96 md:h-96 rounded-3xl overflow-hidden border border-purple-500/30 shadow-2xl shadow-purple-500/20">
 
-            <Image
-  src="/profile.jpg"
-  alt="Konakalla Chopra Lakshmi Sathvika Profile Picture"
-  fill
-  priority
-  sizes="(max-width: 768px) 100vw, 50vw"
-  className="object-cover"
-/>
+    <Image
+      src="/profile.jpg"
+      alt="Konakalla Chopra Lakshmi Sathvika Profile Picture"
+      fill
+      priority
+      sizes="(max-width: 768px) 100vw, 50vw"
+      className="object-cover object-[center_20%]"
+    />
 
-          </div>
-        </div>
+  </div>
+</div>
 
         {/* Right Side Content */}
         <div>

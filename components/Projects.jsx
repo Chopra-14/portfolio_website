@@ -10,19 +10,20 @@ export default function Projects() {
   const projects = [
 
     {
-      title: "SkillMap 360",
-      description:
-        "A visual platform designed to map student domain strengths using Power BI, APIs, and SharePoint integration for better skill analysis and tracking.",
+  title: "Amazon Prime Video Analytics Dashboard",
 
-      tech: [
-        "Power BI",
-        "SharePoint",
-        "Excel",
-        "APIs",
-      ],
+  description:
+    "An interactive analytics dashboard built using Power BI to analyze Amazon Prime Video content data, including genres, ratings, release years, countries, and show trends through advanced visualizations and business insights.",
+
+  tech: [
+    "Power BI",
+    "Data Analytics",
+    "Excel",
+    "Dashboarding",
+  ],
 
       github:
-        "https://github.com/Chopra-14",
+        "https://github.com/Chopra-14/amazon_prime.git",
     },
 
     {
@@ -38,7 +39,7 @@ export default function Projects() {
       ],
 
       github:
-        "https://github.com/Chopra-14",
+        "https://github.com/Chopra-14/job-application-tracker",
     },
 
     {
@@ -53,7 +54,7 @@ export default function Projects() {
       ],
 
       github:
-        "https://github.com/Chopra-14",
+        "https://github.com/Chopra-14/customer-feedback-sentiment-analysis",
     },
 
   ];

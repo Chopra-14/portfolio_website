@@ -5,16 +5,27 @@ import { motion } from "framer-motion";
 export default function Achievements() {
 
   const achievements = [
-    {
-      title: "Winner — Myntra Hacker Ramp",
-      desc: "National Level WeForShe 2025 Winner",
-    },
 
-    {
-      title: "Adobe India Hackathon",
-      desc: "Round 1 Coding & MCQ Participant",
-    },
-  ];
+  {
+    title: "Winner — Myntra Hacker Ramp",
+    desc: "National Level WeForShe 2025 Winner",
+    file: "/achievements/myntra.png",
+  },
+
+  {
+    title: "Adobe India Hackathon",
+    desc: "Round 1 Coding & MCQ Participant",
+    file: "/achievements/adobe.pdf",
+  },
+  {
+  title: "AlgoUniversity Technology Fellowship",
+
+  desc: "Qualified Stage 1 and ranked in the Top 8% nationwide among 250,000 participants.",
+
+  file: "/achievements/algouniversity.png",
+},
+
+];
 
   return (
     <section
@@ -44,16 +55,29 @@ export default function Achievements() {
               delay: index * 0.2,
             }}
             viewport={{ once: true }}
-            className="bg-white/10 backdrop-blur-lg border border-white/10 rounded-3xl p-10"
+            className="bg-white/10 backdrop-blur-lg border border-white/10 rounded-3xl p-10 flex flex-col justify-between min-h-[260px]"
           >
 
-            <h3 className="text-2xl font-bold mb-4">
-              {item.title}
-            </h3>
+           <div className="flex flex-col gap-5">
 
-            <p className="text-gray-400">
-              {item.desc}
-            </p>
+  <h3 className="text-2xl font-bold">
+    {item.title}
+  </h3>
+
+  <p className="text-gray-400">
+    {item.desc}
+  </p>
+
+  <a
+    href={item.file}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-cyan-500 hover:bg-cyan-400 text-black px-5 py-3 rounded-full text-center font-semibold transition"
+  >
+    View Proof
+  </a>
+
+</div>
 
           </motion.div>
 

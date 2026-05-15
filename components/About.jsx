@@ -40,22 +40,17 @@ export default function About() {
             About Me
           </h2>
 
-          <p className="text-gray-400 text-lg leading-8 mb-6">
-            I am a passionate frontend developer and data enthusiast
-            who enjoys building modern responsive websites and
-            interactive user experiences.
-          </p>
+          <p className="text-gray-400 text-lg leading-8">
+
+  I am a passionate Data Analytics enthusiast and AI & ML student with a strong interest in transforming data into meaningful insights through visualization and intelligent solutions.
+</p>
 
           <p className="text-gray-400 text-lg leading-8 mb-6">
-            I love working with technologies like React, Next.js,
-            Tailwind CSS, and Power BI to create impactful and
-            visually appealing digital solutions.
+            I enjoy working on modern web applications, analytics dashboards, machine learning projects, and enterprise technologies. My experience includes Power BI, Excel dashboards, SharePoint integration, workflow automation, and frontend development using React and Next.js.
           </p>
 
           <p className="text-gray-400 text-lg leading-8">
-            I continuously explore new technologies, improve my
-            problem-solving skills, and strive to create projects
-            that combine creativity with functionality.
+            I continuously explore new technologies and strive to build impactful, user-friendly, and data-driven solutions that solve real-world problems.
           </p>
 
         </div>

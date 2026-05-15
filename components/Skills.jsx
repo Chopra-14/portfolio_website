@@ -21,6 +21,26 @@ export default function Skills() {
 
   const skills = [
     {
+      name: "Excel",
+      icon: <FaReact size={50} />,
+    },
+    {
+      name: "PowerBI",
+      icon: <FaReact size={50} />,
+    },
+    {
+      name: "PowerApps",
+      icon: <FaReact size={50} />,
+    },
+    {
+      name: "SharePoint",
+      icon: <FaReact size={50} />,
+    },
+    {
+      name: "Snowflake",
+      icon: <FaReact size={50} />,
+    },
+    {
       name: "React",
       icon: <FaReact size={50} />,
     },

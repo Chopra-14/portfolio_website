@@ -18,14 +18,18 @@ export default function Certifications() {
     >
 
       <motion.h2
-        initial={{ opacity: 0, y: 80 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1 }}
-        viewport={{ once: true }}
-        className="text-4xl md:text-5xl font-bold text-purple-400 mb-16"
-      >
-        Certifications
-      </motion.h2>
+  initial={{ opacity: 0, y: 80 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  transition={{ duration: 1 }}
+  viewport={{ once: true }}
+  className="text-4xl md:text-5xl font-bold text-purple-400 mb-16"
+>
+  Certifications
+</motion.h2>
+
+<p className="text-gray-400 text-lg mb-14 text-center">
+  Certifications and technical achievements
+</p>
 
       <div className="grid md:grid-cols-2 gap-8 max-w-6xl">
 

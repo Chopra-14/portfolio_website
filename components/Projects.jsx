@@ -2,7 +2,9 @@
 
 import { motion } from "framer-motion";
 import { FaGithub } from "react-icons/fa";
-
+<p className="text-gray-400 text-lg mb-14 text-center">
+  Some of my featured work and projects
+</p>
 export default function Projects() {
 
   const projects = [
@@ -64,14 +66,18 @@ export default function Projects() {
 
       {/* Heading */}
       <motion.h2
-        initial={{ opacity: 0, y: 80 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1 }}
-        viewport={{ once: true }}
-        className="text-4xl md:text-5xl font-bold text-purple-400 mb-16"
-      >
-        Projects
-      </motion.h2>
+  initial={{ opacity: 0, y: 80 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  transition={{ duration: 1 }}
+  viewport={{ once: true }}
+  className="text-4xl md:text-5xl font-bold text-purple-400 mb-16"
+>
+  Projects
+</motion.h2>
+
+<p className="text-gray-400 text-lg mb-14 text-center">
+  Some of my featured work and projects
+</p>
 
       {/* Project Cards */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-7xl">

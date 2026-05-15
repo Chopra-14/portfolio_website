@@ -51,9 +51,14 @@ export default function Navbar() {
               }}
             >
 
-              <a href={`#${item}`} className="capitalize">
-                {item}
-              </a>
+              <a
+  href={`#${item}`}
+  className="capitalize relative group"
+>
+  {item}
+
+  <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-cyan-400 transition-all duration-300 group-hover:w-full"></span>
+</a>
 
             </motion.li>
 

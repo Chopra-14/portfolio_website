@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { TypeAnimation } from "react-type-animation";
 
 import {
   FaGithub,
@@ -40,14 +41,25 @@ export default function Hero() {
             Hello, I'm
           </p>
 
-          <h1 className="text-5xl md:text-7xl font-extrabold leading-tight mb-6">
-            Konakalla Chopra <br />
+          <h1 className="text-5xl md:text-6xl lg:text-7xl font-extrabold leading-tight mb-6">
+            Konakalla Chopra 
             Lakshmi Sathvika
           </h1>
 
-          <h2 className="text-2xl md:text-4xl text-gray-300 mb-6">
-            AI & ML Student | Frontend Developer
-          </h2>
+          <TypeAnimation
+  sequence={[
+    "AI & ML Student",
+    2000,
+    "Data Specialist",
+    2000,
+    "Frontend Developer",
+    2000,
+  ]}
+  wrapper="span"
+  speed={50}
+  repeat={Infinity}
+  className="text-2xl md:text-4xl text-cyan-400 mb-6 block font-semibold"
+/>
 
           <p className="text-gray-400 text-lg leading-8 mb-8">
             Passionate about frontend development, data analytics,

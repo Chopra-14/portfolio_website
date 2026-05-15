@@ -10,14 +10,18 @@ export default function Experience() {
     >
 
       <motion.h2
-        initial={{ opacity: 0, y: 80 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1 }}
-        viewport={{ once: true }}
-        className="text-4xl md:text-5xl font-bold text-purple-400 mb-16"
-      >
-        Experience
-      </motion.h2>
+  initial={{ opacity: 0, y: 80 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  transition={{ duration: 1 }}
+  viewport={{ once: true }}
+  className="text-4xl md:text-5xl font-bold text-purple-400 mb-16"
+>
+  Experience
+</motion.h2>
+
+<p className="text-gray-400 text-lg mb-14 text-center">
+  My professional internship experience
+</p>
 
       <motion.div
         initial={{ opacity: 0, y: 80 }}

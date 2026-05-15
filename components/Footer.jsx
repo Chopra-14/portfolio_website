@@ -1,7 +1,11 @@
 export default function Footer() {
   return (
-    <footer className="text-center py-6 text-gray-500">
-      © 2026 Sathvika Portfolio
+    <footer className="border-t border-white/10 py-8 text-center text-gray-400">
+
+      <p>
+        © 2026 Sathvika. All Rights Reserved.
+      </p>
+
     </footer>
   );
 }
